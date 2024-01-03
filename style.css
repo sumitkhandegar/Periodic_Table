@@ -1,0 +1,533 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(image/bg.webp);
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.classification{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 30px 200px 0px 200px;
+    font-size: 40px;
+}
+
+abbr{
+    text-decoration: none !important;
+}
+
+/* Table size and alignment */
+table{
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+}
+
+.t2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 355px;
+}
+
+td{
+    background-color: rgb(0, 2, 37);
+    font-size: 30px;
+    padding: 0px;
+    z-index: 2;
+    height: 50px;
+    width: 50px;
+}
+
+.H{
+    text-decoration: none;
+    color: #ecbe59;
+}
+
+.H:hover{
+    color: transparent;
+}
+
+.group{
+    color: white;
+    background-color: transparent;
+    font-size: 10px;
+}
+
+p{
+    font-size: 8px;
+    padding: 0px;
+    margin: 0%;
+}
+
+/* Box and Font color */
+.alkali_metal{
+    color: #ecbe59; 
+    border: 1px solid #ecbe59; 
+    text-shadow: 0 0 0.4vw #ecbe59;
+}
+
+.alkaline_earth{
+    color: #dee955; 
+    border: 1px solid #dee955; 
+    text-shadow: 0 0 0.4vw #dee955;
+}
+
+.metalloids{
+    color: #3aefb6; 
+    border: 1px solid #3aefb6; 
+    text-shadow: 0 0 0.4vw #3aefb6;
+}
+
+.non_metals{
+    color: #52ee61; 
+    border: 1px solid #52ee61; 
+    text-shadow: 0 0 0.4vw #52ee61;
+}
+
+.noble_gas{
+    color: #759fff; 
+    border: 1px solid #759fff; 
+    text-shadow: 0 0 0.4vw #759fff;
+}
+
+.transition_metals{
+    color: #fd8572; 
+    border: 1px solid #fd8572; 
+    text-shadow: 0 0 0.4vw #fd8572;
+}
+
+.post_transition{
+    color: #4cddf3; 
+    border: 1px solid #4cddf3; 
+    text-shadow: 0 0 0.4vw #4cddf3;
+}
+
+.Lanthanides{
+    color: #ec77a3; 
+    border: 1px solid #ec77a3; 
+    text-shadow: 0 0 0.4vw #ec77a3;
+}
+
+.Actinides{
+    color: #c686cc; 
+    border: 1px solid #c686cc; 
+    text-shadow: 0 0 0.4vw #c686cc;
+}
+
+.unknown{
+    color: #cccccc; 
+    border: 1px solid #cccccc; 
+    text-shadow: 0 0 0.4vw #cccccc;
+}
+
+/* Elements hover */
+.alkali_metal:hover, .alkaline_earth:hover, .metalloids:hover, .non_metals:hover, .noble_gas:hover, .transition_metals:hover, .post_transition:hover, .Lanthanides:hover, .Actinides:hover, .unknown:hover{
+    transform: scale(2);
+    text-decoration: solid;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+    border-width: 3px;
+    transition: 0.4s;
+}
+
+#Hydrogen:hover{
+    color: transparent;
+    background-image: url(image/hydrogen.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Helium:hover{
+    color: transparent;
+    background-image: url(image/helium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Lithium:hover{
+    color: transparent;
+    background-image: url(image/lithium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Boron:hover{
+    color: transparent;
+    background-image: url(image/boron.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Carbon:hover{
+    color: transparent;
+    background-image: url(image/carbon.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Oxygen:hover{
+    color: transparent;
+    background-image: url(image/oxygen.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Fluorine:hover{
+    color: transparent;
+    background-image: url(image/fluorine.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Neon:hover{
+    color: transparent;
+    background-image: url(image/neon.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Sodium:hover{
+    color: transparent;
+    background-image: url(image/sodium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Magnesium:hover{
+    color: transparent;
+    background-image: url(image/magnesium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Auminium:hover{
+    color: transparent;
+    background-image: url(image/aluminium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Silicon:hover{
+    color: transparent;
+    background-image: url(image/Silicon.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Phosphorus:hover{
+    color: transparent;
+    background-image: url(image/phosphorous.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Sulphur:hover{
+    color: transparent;
+    background-image: url(image/sulphur.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Argon:hover{
+    color: transparent;
+    background-image: url(image/argon.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Potassium:hover{
+    color: transparent;
+    background-image: url(image/potassium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Titanium:hover{
+    color: transparent;
+    background-image: url(image/titanium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Vanadium:hover{
+    color: transparent;
+    background-image: url(image/vanadium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Manganese:hover{
+    color: transparent;
+    background-image: url(image/mangnese.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Cobalt:hover{
+    color: transparent;
+    background-image: url(image/cobalt.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Nickel:hover{
+    color: transparent;
+    background-image: url(image/nickel.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Copper:hover{
+    color: transparent;
+    background-image: url(image/copper.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Zinc:hover{
+    color: transparent;
+    background-image: url(image/Zinc.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Arsenic:hover{
+    color: transparent;
+    background-image: url(image/arsenic.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Strontium:hover{
+    color: transparent;
+    background-image: url(image/Strontium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Silver:hover{
+    color: transparent;
+    background-image: url(image/silver.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Cadmium:hover{
+    color: transparent;
+    background-image: url(image/cadmium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Tin:hover{
+    color: transparent;
+    background-image: url(image/Tin.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Antimony:hover{
+    color: transparent;
+    background-image: url(image/anitomy.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Iodine:hover{
+    color: transparent;
+    background-image: url(image/iodine.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Xenon:hover{
+    color: transparent;
+    background-image: url(image/xenon.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Ceasium:hover{
+    color: transparent;
+    background-image: url(image/ceasium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Tungsten:hover{
+    color: transparent;
+    background-image: url(image/tungsten.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Iridium:hover{
+    color: transparent;
+    background-image: url(image/iridium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Platinum:hover{
+    color: transparent;
+    background-image: url(image/platinum.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Gold:hover{
+    color: transparent;
+    background-image: url(image/gold.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Mercury:hover{
+    color: transparent;
+    background-image: url(image/mercury.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Lead:hover{
+    color: transparent;
+    background-image: url(image/lead.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Bismuth:hover{
+    color: transparent;
+    background-image: url(image/bismuth.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Radon:hover{
+    color: transparent;
+    background-image: url(image/radon.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Francium:hover{
+    color: transparent;
+    background-image: url(image/francium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Moscovium:hover{
+    color: transparent;
+    background-image: url(image/moscovium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Neodymium:hover{
+    color: transparent;
+    background-image: url(image/nedomium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Promethium:hover{
+    color: transparent;
+    background-image: url(image/promethium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Samarium:hover{
+    color: transparent;
+    background-image: url(image/samarium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Europium:hover{
+    color: transparent;
+    background-image: url(image/europium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Terbium:hover{
+    color: transparent;
+    background-image: url(image/terbium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Thorium:hover{
+    color: transparent;
+    background-image: url(image/thorium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Uranium:hover{
+    color: transparent;
+    background-image: url(image/uranium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Neptunium:hover{
+    color: transparent;
+    background-image: url(image/neptunium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Plutonium:hover{
+    color: transparent;
+    background-image: url(image/plutonium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Americium:hover{
+    color: transparent;
+    background-image: url(image/americium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Curium:hover{
+    color: transparent;
+    background-image: url(image/curium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Berkelium:hover{
+    color: transparent;
+    background-image: url(image/barkelium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Einsteinium:hover{
+    color: transparent;
+    background-image: url(image/eienstinium.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    color: white;
+    padding: 10px 20px 10px 0px;
+    text-align: right;
+}
